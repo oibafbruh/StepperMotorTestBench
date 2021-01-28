@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace StepperMotorTestBench
+namespace SharpUpdate2
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace StepperMotorTestBench
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SplashScreen());
+            Application.Run(new main());
         }
     }
 }
